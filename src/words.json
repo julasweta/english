@@ -1,0 +1,1413 @@
+ {
+  "result":[
+    {
+      "id": 1,
+      "englishWord": "hi",
+      "translateWord": "привіт",
+      "partsOfSpeech": "interjection",
+      "englishPronunciation": "haɪ"
+    },
+    {
+      "id": 2,
+      "englishWord": "hello",
+      "translateWord": "здрастуйте, привіт",
+      "partsOfSpeech": "interjection",
+      "englishPronunciation": "hɛˈləʊ"
+    },
+    {
+      "id": 3,
+      "englishWord": "sorry",
+      "translateWord": "вибач(те)",
+      "partsOfSpeech": "interjection",
+      "englishPronunciation": "ˈsɒrɪ"
+    },
+    {
+      "id": 4,
+      "englishWord": "please",
+      "translateWord": "будь ласка (прошу); догоджати",
+      "partsOfSpeech": "adverb",
+      "englishPronunciation": "pliːz"
+    },
+    {
+      "id": 5,
+      "englishWord": "thank you",
+      "translateWord": "спасибі",
+      "partsOfSpeech": "phrase",
+      "englishPronunciation": "θaŋk juː"
+    },
+    {
+      "id": 6,
+      "englishWord": "you are welcome",
+      "translateWord": "будь ласка, немає за що",
+      "partsOfSpeech": "phrase",
+      "englishPronunciation": "juː ə ˈwɛlkəm"
+    },
+    {
+      "id": 7,
+      "englishWord": "what a pity",
+      "translateWord": "як жаль",
+      "partsOfSpeech": "phrase",
+      "englishPronunciation": "wɒt ə ˈpɪti"
+    },
+    {
+      "id": 8,
+      "englishWord": "bye",
+      "translateWord": "до побачення",
+      "partsOfSpeech": "interjection",
+      "englishPronunciation": "baɪ"
+    },
+    {
+      "id": 9,
+      "englishWord": "man",
+      "translateWord": "чоловік",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "mæn"
+    },
+    {
+      "id": 10,
+      "englishWord": "men",
+      "translateWord": "чоловіки",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "men"
+    },
+    {
+      "id": 11,
+      "englishWord": "woman",
+      "translateWord": "жінка",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈwʊmən"
+    },
+    {
+      "id": 12,
+      "englishWord": "women",
+      "translateWord": "жінки",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈwɪmɪn"
+    },
+    {
+        "id": 13,
+        "englishWord": "time",
+        "translateWord": "час",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "taɪm",
+        "uaPronunciation": "тайм"
+    },
+    {
+        "id": 14,
+        "englishWord": "day",
+        "translateWord": "день",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "deɪ",
+        "uaPronunciation": "дей"
+    },
+    {
+        "id": 15,
+        "englishWord": "output",
+        "translateWord": "вихідний",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈaʊtpʊt",
+        "uaPronunciation": "аутпут"
+    },
+    {
+        "id": 16,
+        "englishWord": "year",
+        "translateWord": "рік",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "jɪr",
+        "uaPronunciation": "єр"
+    },
+    {
+        "id": 17,
+        "englishWord": "month",
+        "translateWord": "місяць",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "mʌnθ",
+        "uaPronunciation": "мант"
+    },
+    {
+        "id": 18,
+        "englishWord": "week",
+        "translateWord": "тиждень",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "wiːk",
+        "uaPronunciation": "вік"
+    },
+    {
+        "id": 19,
+        "englishWord": "hour",
+        "translateWord": "година",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "aʊər",
+        "uaPronunciation": "ауер"
+    },
+    {
+        "id": 20,
+        "englishWord": "minute",
+        "translateWord": "хвилина",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "mɪnɪt",
+        "uaPronunciation": "мініт"
+    },
+    {
+        "id": 21,
+        "englishWord": "second",
+        "translateWord": "секунда",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈsɛkənd",
+        "uaPronunciation": "секенд"
+    },
+    {
+        "id": 22,
+        "englishWord": "morning",
+        "translateWord": "ранок",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈmɔːnɪŋ",
+        "uaPronunciation": "морнінг"
+    },
+    {
+        "id": 23,
+        "englishWord": "beautiful",
+        "translateWord": "красивий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈbjuːtɪf(ə)l",
+        "uaPronunciation": "бьютіфул"
+        },
+        {
+        "id": 24,
+        "englishWord": "ugly",
+        "translateWord": "некрасивий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈʌɡli",
+        "uaPronunciation": "аглі"
+        },
+        {
+        "id": 25,
+        "englishWord": "strong",
+        "translateWord": "сильний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "strɒŋ",
+        "uaPronunciation": "стронг"
+        },
+        {
+        "id": 26,
+        "englishWord": "weak",
+        "translateWord": "слабкий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "wiːk",
+        "uaPronunciation": "вік"
+        },
+        {
+        "id": 27,
+        "englishWord": "happy",
+        "translateWord": "щасливий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈhæpi",
+        "uaPronunciation": "хепі"
+        },
+        {
+        "id": 28,
+        "englishWord": "sad",
+        "translateWord": "сумний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "sæd",
+        "uaPronunciation": "сед"
+        },
+        {
+        "id": 29,
+        "englishWord": "rich",
+        "translateWord": "багатий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "rɪtʃ",
+        "uaPronunciation": "річ"
+        },
+        {
+        "id": 30,
+        "englishWord": "poor",
+        "translateWord": "бідний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "pʊə",
+        "uaPronunciation": "пур"
+        },
+        {
+        "id": 31,
+        "englishWord": "tall",
+        "translateWord": "високий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "tɔːl",
+        "uaPronunciation": "тол"
+        },
+        {
+        "id": 32,
+        "englishWord": "short",
+        "translateWord": "низький",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ʃɔːt",
+        "uaPronunciation": "шорт"
+        },
+        {
+        "id": 33,
+        "englishWord": "fast",
+        "translateWord": "швидкий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "fɑːst",
+        "uaPronunciation": "фаст"
+        },
+        {
+        "id": 34,
+        "englishWord": "slow",
+        "translateWord": "повільний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "sləʊ",
+        "uaPronunciation": "слоу"
+        },
+        
+        {
+        "id": 35,
+        "englishWord": "history",
+        "translateWord": "історія",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈhɪstəri",
+        "uaPronunciation": "гісторі"
+        },
+        
+        {
+        "id": 36,
+        "englishWord": "family",
+        "translateWord": "родина",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈfæməli",
+        "uaPronunciation": "фамілі"
+        },
+        
+        {
+        "id": 37,
+        "englishWord": "city",
+        "translateWord": "місто",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈsɪti",
+        "uaPronunciation": "сіті"
+        },
+        
+        {
+        "id": 38,
+        "englishWord": "country",
+        "translateWord": "країна",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈkʌntri",
+        "uaPronunciation": "кантрі"
+        },
+        
+        {
+        "id": 39,
+        "englishWord": "world",
+        "translateWord": "світ",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "wɔːld",
+        "uaPronunciation": "ворлд"
+        },
+        
+        {
+        "id": 40,
+        "englishWord": "planet",
+        "translateWord": "планета",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈplænɪt",
+        "uaPronunciation": "планета"
+        },
+        
+        {
+        "id": 41,
+        "englishWord": "universe",
+        "translateWord": "всесвіт",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈjuːnɪvɜːrs",
+        "uaPronunciation": "юнівєрс"
+        },
+        
+        {
+        "id": 42,
+        "englishWord": "life",
+        "translateWord": "життя",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "laɪf",
+        "uaPronunciation": "лаїф"
+        },
+        
+        {
+        "id": 43,
+        "englishWord": "death",
+        "translateWord": "смерть",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "deθ",
+        "uaPronunciation": "дет"
+        },
+        
+        {
+        "id": 44,
+        "englishWord": "love",
+        "translateWord": "кохання",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "lʌv",
+        "uaPronunciation": "лав"
+        },
+        
+        {
+        "id": 45,
+        "englishWord": "hate",
+        "translateWord": "ненависть",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "heɪt",
+        "uaPronunciation": "хейт"
+        },
+        
+        {
+        "id": 46,
+        "englishWord": "friendship",
+        "translateWord": "дружба",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈfren(d)ʃɪp",
+        "uaPronunciation": "френдшип"
+        },
+        
+        {
+          "id": 47,
+          "englishWord": "order",
+          "translateWord": "замовлення, порядок",
+          "partsOfSpeech": "noun",
+          "englishPronunciation": "ˈɔrdər",
+          "uaPronunciation": "ордер"
+        },
+        {
+          "id": 48,
+          "englishWord": "permit",
+          "translateWord": "дозвіл",
+          "partsOfSpeech": "noun",
+          "englishPronunciation": "pərˈmɪt",
+          "uaPronunciation": "перміт"
+        },
+        {
+          "id": 49,
+          "englishWord": "offer",
+          "translateWord": "пропозиція, пропонувати",
+          "partsOfSpeech": "noun/verb",
+          "englishPronunciation": "ˈɒfə(r)",
+          "uaPronunciation": "офер"
+        },
+        {
+          "id": 50,
+          "englishWord": "present",
+          "translateWord": "подарунок, презентувати",
+          "partsOfSpeech": "noun/verb",
+          "englishPronunciation": "ˈprez(ə)nt",
+          "uaPronunciation": "презент"
+        },
+        {
+          "id": 51,
+          "englishWord": "question",
+          "translateWord": "питання, запитувати",
+          "partsOfSpeech": "noun/verb",
+          "englishPronunciation": "ˈkwɛstʃ(ə)n",
+          "uaPronunciation": "квестіон"
+        },
+        {
+          "id": 52,
+          "englishWord": "reason",
+          "translateWord": "причина, мотив",
+          "partsOfSpeech": "noun",
+          "englishPronunciation": "ˈriːz(ə)n",
+          "uaPronunciation": "різон"
+        },
+        {
+          "id": 53,
+          "englishWord": "result",
+          "translateWord": "результат, наслідок",
+          "partsOfSpeech": "noun",
+          "englishPronunciation": "rɪˈzʌlt",
+          "uaPronunciation": "резалт"
+        },
+        {
+          "id": 54,
+          "englishWord": "safe",
+          "translateWord": "безпечний",
+          "partsOfSpeech": "adjective",
+          "englishPronunciation": "seɪf",
+          "uaPronunciation": "сеф"
+        },
+        {
+          "id": 55,
+          "englishWord": "serve",
+          "translateWord": "обслуговувати",
+          "partsOfSpeech": "verb",
+          "englishPronunciation": "sɜːv",
+          "uaPronunciation": "серв"
+        },
+        {
+          "id": 56,
+          "englishWord": "special",
+          "translateWord": "спеціальний, особливий",
+          "partsOfSpeech": "adjective",
+          "englishPronunciation": "ˈspeʃl̩",
+          "uaPronunciation": "спешал"
+        },
+        {
+        "id": 57,
+        "englishWord": "new",
+        "translateWord": "новий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "nuː",
+        "uaPronunciation": "нью"
+        },
+        
+        {
+        "id": 58,
+        "englishWord": "old",
+        "translateWord": "старий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "oʊld",
+        "uaPronunciation": "оулд"
+        },
+        
+        {
+        "id": 59,
+        "englishWord": "young",
+        "translateWord": "молодий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "jʌŋ",
+        "uaPronunciation": "янг"
+        },
+        
+        {
+        "id": 60,
+        "englishWord": "same",
+        "translateWord": "той самий, однаковий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "seɪm",
+        "uaPronunciation": "сейм"
+        },
+        
+        {
+        "id": 61,
+        "englishWord": "different",
+        "translateWord": "різний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈdɪfərənt",
+        "uaPronunciation": "діфрент"
+        },
+        
+        {
+        "id": 62,
+        "englishWord": "easy",
+        "translateWord": "легкий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈizi",
+        "uaPronunciation": "ізі"
+        },
+        
+        {
+        "id": 63,
+        "englishWord": "difficult",
+        "translateWord": "складний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈdɪfɪkəlt",
+        "uaPronunciation": "діфіклт"
+        },
+        
+        {
+        "id": 64,
+        "englishWord": "good",
+        "translateWord": "добрий, хороший",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ɡʊd",
+        "uaPronunciation": "ґуд"
+        },
+        
+        {
+        "id": 65,
+        "englishWord": "bad",
+        "translateWord": "поганий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "bæd",
+        "uaPronunciation": "бед"
+        },
+        
+        {
+        "id": 66,
+        "englishWord": "happy",
+        "translateWord": "щасливий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈhæpi",
+        "uaPronunciation": "хепі"
+        },
+        
+        {
+        "id": 67,
+        "englishWord": "sad",
+        "translateWord": "сумний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "sæd",
+        "uaPronunciation": "сед"
+        },
+        {
+        "id": 68,
+        "englishWord": "enough",
+        "translateWord": "достатньо",
+        "partsOfSpeech": "adverb",
+        "englishPronunciation": "ɪˈnʌf",
+        "uaPronunciation": "інаф"
+        },
+        {
+        "id": 69,
+        "englishWord": "famous",
+        "translateWord": "відомий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈfeɪməs",
+        "uaPronunciation": "феймас"
+        },
+        {
+        "id": 70,
+        "englishWord": "exact",
+        "translateWord": "точний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ɪɡˈzækt",
+        "uaPronunciation": "ігзакт"
+        },
+        {
+        "id": 71,
+        "englishWord": "interesting",
+        "translateWord": "цікавий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈɪntrəstɪŋ",
+        "uaPronunciation": "інтрестінґ"
+        },
+        {
+        "id": 72,
+        "englishWord": "comfortable",
+        "translateWord": "зручний, комфортний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈkʌmftəbl̩",
+        "uaPronunciation": "комфортабл"
+        },
+        {
+        "id": 73,
+        "englishWord": "wonderful",
+        "translateWord": "чудовий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈwʌndərfəl",
+        "uaPronunciation": "вандерфул"
+        },
+        {
+        "id": 74,
+        "englishWord": "difficult",
+        "translateWord": "важкий, складний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈdɪfɪkəlt",
+        "uaPronunciation": "діфікълт"
+        },
+        {
+        "id": 75,
+        "englishWord": "important",
+        "translateWord": "важливий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ɪmˈpɔrtnt",
+        "uaPronunciation": "імпортант"
+        },
+        {
+        "id": 76,
+        "englishWord": "easy",
+        "translateWord": "легкий, простий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈi:zi",
+        "uaPronunciation": "ізі"
+        },
+        {
+        "id": 77,
+        "englishWord": "impossible",
+        "translateWord": "неможливий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ɪmˈpɒsəbl",
+        "uaPronunciation": "імпосібл"
+        },
+        {
+        "id": 78,
+        "englishWord": "dinner",
+        "translateWord": "вечеря",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈdɪnər",
+        "uaPronunciation": "дінер"
+        },
+        {
+        "id": 79,
+        "englishWord": "breakfast",
+        "translateWord": "сніданок",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈbrɛkfəst",
+        "uaPronunciation": "брекфаст"
+        },
+        {
+        "id": 80,
+        "englishWord": "lunch",
+        "translateWord": "обід",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "lʌn(t)ʃ",
+        "uaPronunciation": "ланч"
+        },
+        {
+        "id": 81,
+        "englishWord": "snack",
+        "translateWord": "перекус",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "snæk",
+        "uaPronunciation": "снек"
+        },
+        {
+        "id": 82,
+        "englishWord": "hungry",
+        "translateWord": "голодний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈhʌŋɡri",
+        "uaPronunciation": "хангрі"
+        },
+        {
+        "id": 83,
+        "englishWord": "thirsty",
+        "translateWord": "спраглий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈθɜrsti",
+        "uaPronunciation": "сьорсті"
+        },
+        {
+        "id": 84,
+        "englishWord": "delicious",
+        "translateWord": "смачний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "dɪˈlɪʃəs",
+        "uaPronunciation": "ділішес"
+        },
+        {
+        "id": 85,
+        "englishWord": "tasty",
+        "translateWord": "смачний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈteɪsti",
+        "uaPronunciation": "тейсті"
+        },
+        {
+        "id": 86,
+        "englishWord": "spicy",
+        "translateWord": "гострий, пікантний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈspaɪsi",
+        "uaPronunciation": "спайсі"
+        },
+        {
+        "id": 87,
+        "englishWord": "sweet",
+        "translateWord": "солодкий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "swiːt",
+        "uaPronunciation": "світ"
+        },
+        {
+        "id": 88,
+        "englishWord": "sour",
+        "translateWord": "кислий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈsaʊər",
+        "uaPronunciation": "сауер"
+        },
+        {
+        "id": 89,
+        "englishWord": "thing",
+        "translateWord": "річ, предмет",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "θɪŋ",
+        "uaPronunciation": "тінг"
+        },
+        {
+        "id": 90,
+        "englishWord": "place",
+        "translateWord": "місце, місцевість",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "pleɪs",
+        "uaPronunciation": "плейс"
+        },
+        {
+        "id": 91,
+        "englishWord": "year",
+        "translateWord": "рік",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "jɪr",
+        "uaPronunciation": "йір"
+        },
+        {
+        "id": 92,
+        "englishWord": "day",
+        "translateWord": "день",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "deɪ",
+        "uaPronunciation": "дей"
+        },
+        {
+        "id": 93,
+        "englishWord": "week",
+        "translateWord": "тиждень",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "wiːk",
+        "uaPronunciation": "вік"
+        },
+        {
+        "id": 94,
+        "englishWord": "month",
+        "translateWord": "місяць",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "mʌnθ",
+        "uaPronunciation": "мант"
+        },
+        {
+        "id": 95,
+        "englishWord": "hour",
+        "translateWord": "година",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "aʊər",
+        "uaPronunciation": "ауер"
+        },
+        {
+        "id": 96,
+        "englishWord": "minute",
+        "translateWord": "хвилина",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "mɪnɪt",
+        "uaPronunciation": "мініт"
+        },
+        {
+        "id": 97,
+        "englishWord": "second",
+        "translateWord": "секунда",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈsɛkənd",
+        "uaPronunciation": "секенд"
+        },
+        {
+        "id": 98,
+        "englishWord": "color",
+        "translateWord": "колір",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈkʌlər",
+        "uaPronunciation": "колер"
+        },
+        {
+        "id": 99,
+        "englishWord": "size",
+        "translateWord": "розмір",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "saɪz",
+        "uaPronunciation": "сайз"
+        },
+        {
+        "id": 100,
+        "englishWord": "end",
+        "translateWord": "кінець, закінчувати",
+        "partsOfSpeech": "noun, verb",
+        "englishPronunciation": "ɛnd",
+        "uaPronunciation": "енд"
+        },
+        {
+        "id": 101,
+        "englishWord": "different",
+        "translateWord": "різний, відмінний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈdɪfərənt",
+        "uaPronunciation": "діфрент"
+        },
+        {
+        "id": 1015,
+        "englishWord": "death",
+        "translateWord": "смерть",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "dɛθ",
+        "uaPronunciation": "дет"
+        },
+        {
+        "id": 102,
+        "englishWord": "hour",
+        "translateWord": "година",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "aʊər",
+        "uaPronunciation": "ауер"
+        },
+        {
+        "id": 103,
+        "englishWord": "remember",
+        "translateWord": "пам’ятати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "rɪˈmɛmbər",
+        "uaPronunciation": "рімембер"
+        },
+        {
+        "id": 104,
+        "englishWord": "door",
+        "translateWord": "двері",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "dɔr",
+        "uaPronunciation": "дор"
+        },
+        {
+        "id": 105,
+        "englishWord": "hope",
+        "translateWord": "надія, сподіватися",
+        "partsOfSpeech": "noun, verb",
+        "englishPronunciation": "hoʊp",
+        "uaPronunciation": "хоуп"
+        },
+        {
+        "id": 106,
+        "englishWord": "really",
+        "translateWord": "дійсно, насправді",
+        "partsOfSpeech": "adverb",
+        "englishPronunciation": "ˈriəli",
+        "uaPronunciation": "ріелі"
+        },
+        {
+        "id": 107,
+        "englishWord": "call",
+        "translateWord": "викликати, телефонувати, виклик, дзвінок",
+        "partsOfSpeech": "verb, noun",
+        "englishPronunciation": "kɔl",
+        "uaPronunciation": "кол"
+        },
+        {
+        "id": 108,
+        "englishWord": "moment",
+        "translateWord": "момент",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈmoʊmənt",
+        "uaPronunciation": "моумент"
+        },
+        {
+        "id": 109,
+        "englishWord": "sense",
+        "translateWord": "чуття, почуття, розуміння, зміст",
+        "partsOfSpeech": "noun, verb",
+        "englishPronunciation": "sɛns",
+        "uaPronunciation": "сенс"
+        },
+        {
+        "id": 110,
+        "englishWord": "ask",
+        "translateWord": "просити, запитувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "æsk",
+        "uaPronunciation": "аск"
+        },
+        {
+        "id": 111,
+        "englishWord": "industry",
+        "translateWord": "промисловість, галузь",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈɪndəstri",
+        "uaPronunciation": "індастрі"
+        },
+        {
+        "id": 112,
+        "englishWord": "method",
+        "translateWord": "метод, спосіб",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈmɛθəd",
+        "uaPronunciation": "мефад"
+        },
+        {
+        "id": 113,
+        "englishWord": "unit",
+        "translateWord": "одиниця, частина",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈjuːnɪt",
+        "uaPronunciation": "юніт"
+        },
+        {
+        "id": 114,
+        "englishWord": "town",
+        "translateWord": "місто, селище",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "taʊn",
+        "uaPronunciation": "таун"
+        },
+        {
+        "id": 115,
+        "englishWord": "common",
+        "translateWord": "звичайний, загальний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈkɑːmən",
+        "uaPronunciation": "камон"
+        },
+        {
+        "id": 116,
+        "englishWord": "position",
+        "translateWord": "положення, становище, позиція",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "pəˈzɪʃn",
+        "uaPronunciation": "пазишн"
+        },
+        {
+        "id": 117,
+        "englishWord": "stage",
+        "translateWord": "стадія, етап, сцена",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "steɪdʒ",
+        "uaPronunciation": "стейдж"
+        },
+        {
+        "id": 118,
+        "englishWord": "kind",
+        "translateWord": "тип, рід, доброзичливий",
+        "partsOfSpeech": "noun, adjective",
+        "englishPronunciation": "kaɪnd",
+        "uaPronunciation": "кайнд"
+        },
+        {
+        "id": 119,
+        "englishWord": "percent",
+        "translateWord": "відсоток",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "pərˈsɛnt",
+        "uaPronunciation": "персент"
+        },
+        {
+        "id": 120,
+        "englishWord": "family",
+        "translateWord": "сім'я",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈfæməli",
+        "uaPronunciation": "фамілі"
+        },
+        {
+        "id": 121,
+        "englishWord": "power",
+        "translateWord": "сила, потужність, влада",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈpaʊər",
+        "uaPronunciation": "пауер"
+        },
+        {
+        "id": 122,
+        "englishWord": "job",
+        "translateWord": "робота, завдання",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "dʒɑb",
+        "uaPronunciation": "джоб"
+        },
+        {
+        "id": 123,
+        "englishWord": "industry",
+        "translateWord": "промисловість, галузь",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈɪndəstri",
+        "uaPronunciation": "індастрі"
+        },
+        {
+        "id": 124,
+        "englishWord": "personal",
+        "translateWord": "особистий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈpərsənl",
+        "uaPronunciation": "персанал"
+        },
+        {
+        "id": 125,
+        "englishWord": "professional",
+        "translateWord": "професійний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "prəˈfɛʃənl",
+        "uaPronunciation": "профешнл"
+        },
+        {
+        "id": 126,
+        "englishWord": "experience",
+        "translateWord": "досвід, відчуття",
+        "partsOfSpeech": "noun, verb",
+        "englishPronunciation": "ɪkˈspɪriəns",
+        "uaPronunciation": "експіріенс"
+        },
+        {
+        "id": 127,
+        "englishWord": "skill",
+        "translateWord": "вміння, майстерність",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "skɪl",
+        "uaPronunciation": "скіл"
+        },
+        {
+        "id": 128,
+        "englishWord": "education",
+        "translateWord": "освіта",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˌɛdʒəˈkeɪʃən",
+        "uaPronunciation": "еджукейшн"
+        },
+        {
+        "id": 129,
+        "englishWord": "degree",
+        "translateWord": "ступінь, ступінь вищої освіти",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "dɪˈɡri",
+        "uaPronunciation": "дігрі"
+        },
+        {
+        "id": 130,
+        "englishWord": "training",
+        "translateWord": "навчання, тренування",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈtreɪnɪŋ",
+        "uaPronunciation": "трейнінг"
+        },
+        {
+        "id": 131,
+        "englishWord": "team",
+        "translateWord": "команда",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "tim",
+        "uaPronunciation": "тім"
+        },
+        {
+        "id": 132,
+        "englishWord": "department",
+        "translateWord": "відділ, департамент",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "dɪˈpɑrtmənt",
+        "uaPronunciation": "діпартмент"
+        },
+        {
+        "id": 133,
+        "englishWord": "understand",
+        "translateWord": "розуміти",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ˌʌndərˈstænd",
+        "uaPronunciation": "андерстенд"
+        },
+        {
+        "id": 134,
+        "englishWord": "life",
+        "translateWord": "життя",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "laɪf",
+        "uaPronunciation": "лайф"
+        },
+        {
+        "id": 135,
+        "englishWord": "together",
+        "translateWord": "разом",
+        "partsOfSpeech": "adverb",
+        "englishPronunciation": "təˈɡɛðər",
+        "uaPronunciation": "тґедер"
+        },
+        {
+        "id": 136,
+        "englishWord": "country",
+        "translateWord": "країна",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈkʌntri",
+        "uaPronunciation": "кантрі"
+        },
+        {
+        "id": 137,
+        "englishWord": "place",
+        "translateWord": "місце",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "pleɪs",
+        "uaPronunciation": "плейс"
+        },
+        {
+        "id": 138,
+        "englishWord": "person",
+        "translateWord": "людина",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈpɜrsən",
+        "uaPronunciation": "персон"
+        },
+        {
+        "id": 139,
+        "englishWord": "day",
+        "translateWord": "день",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "deɪ",
+        "uaPronunciation": "дей"
+        },
+        {
+        "id": 140,
+        "englishWord": "set",
+        "translateWord": "набір, встановлювати",
+        "partsOfSpeech": "verb, noun",
+        "englishPronunciation": "sɛt",
+        "uaPronunciation": "сет"
+        },
+        {
+        "id": 141,
+        "englishWord": "man",
+        "translateWord": "чоловік",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "mæn",
+        "uaPronunciation": "мен"
+        },
+        {
+        "id": 142,
+        "englishWord": "night",
+        "translateWord": "ніч",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "naɪt",
+        "uaPronunciation": "найт"
+        },
+        {
+        "id": 143,
+        "englishWord": "line",
+        "translateWord": "лінія, черта",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "laɪn",
+        "uaPronunciation": "лайн"
+        },
+        {
+        "id": 144,
+        "englishWord": "party",
+        "translateWord": "вечірка, партія, дружина",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈpɑːrti",
+        "uaPronunciation": "парті"
+        },
+        {
+        "id": 145,
+        "englishWord": "business",
+        "translateWord": "бізнес, справа",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈbɪznəs",
+        "uaPronunciation": "бізнес"
+        },
+        {
+        "id": 146,
+        "englishWord": "small",
+        "translateWord": "малий, дрібний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "smɔːl",
+        "uaPronunciation": "смол"
+        },
+        {
+        "id": 147,
+        "englishWord": "large",
+        "translateWord": "великий, широкий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "lɑːrdʒ",
+        "uaPronunciation": "лардж"
+        },
+        {
+        "id": 148,
+        "englishWord": "money",
+        "translateWord": "гроші",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈmʌni",
+        "uaPronunciation": "мані"
+        },
+        {
+        "id": 149,
+        "englishWord": "place",
+        "translateWord": "місце",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "pleɪs",
+        "uaPronunciation": "плейс"
+        },
+        {
+        "id": 150,
+        "englishWord": "order",
+        "translateWord": "порядок, замовлення",
+        "partsOfSpeech": "noun, verb",
+        "englishPronunciation": "ˈɔːrdər",
+        "uaPronunciation": "ордер"
+        },
+        {
+        "id": 151,
+        "englishWord": "group",
+        "translateWord": "група",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ɡruːp",
+        "uaPronunciation": "груп"
+        },
+        {
+        "id": 152,
+        "englishWord": "part",
+        "translateWord": "частина, деталь",
+        "partsOfSpeech": "noun, verb",
+        "englishPronunciation": "pɑːrt",
+        "uaPronunciation": "парт"
+        },
+        {
+        "id": 153,
+        "englishWord": "point",
+        "translateWord": "точка, пункт",
+        "partsOfSpeech": "noun, verb",
+        "englishPronunciation": "pɔɪnt",
+        "uaPronunciation": "пойнт"
+        },
+        {
+        "id": 154,
+        "englishWord": "easy",
+        "translateWord": "легкий, простий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "ˈizi",
+        "uaPronunciation": "ізі"
+        },
+        {
+        "id": 155,
+        "englishWord": "market",
+        "translateWord": "ринок",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "ˈmɑrkɪt",
+        "uaPronunciation": "маркет"
+        },
+        {
+        "id": 156,
+        "englishWord": "degree",
+        "translateWord": "ступінь, рівень",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "dɪˈɡri",
+        "uaPronunciation": "діˈґрі"
+        },
+        {
+        "id": 157,
+        "englishWord": "hit",
+        "translateWord": "удар, вдарити",
+        "partsOfSpeech": "noun, verb",
+        "englishPronunciation": "hɪt",
+        "uaPronunciation": "хіт"
+        },
+        {
+        "id": 158,
+        "englishWord": "develop",
+        "translateWord": "розвивати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "dɪˈvɛləp",
+        "uaPronunciation": "діˈвелоп"
+        },
+        {
+        "id": 159,
+        "englishWord": "relationship",
+        "translateWord": "стосунки",
+        "partsOfSpeech": "noun",
+        "englishPronunciation": "rɪˈleɪʃənʃɪp",
+        "uaPronunciation": "рілейшеншип"
+        },
+        {
+        "id": 160,
+        "englishWord": "official",
+        "translateWord": "офіційний",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "əˈfɪʃəl",
+        "uaPronunciation": "офішел"
+        },
+        {
+        "id": 161,
+        "englishWord": "call",
+        "translateWord": "виклик, телефонувати",
+        "partsOfSpeech": "noun, verb",
+        "englishPronunciation": "kɔl",
+        "uaPronunciation": "кол"
+        },
+        {
+        "id": 162,
+        "englishWord": "move",
+        "translateWord": "рух, пересуватися",
+        "partsOfSpeech": "noun, verb",
+        "englishPronunciation": "muːv",
+        "uaPronunciation": "мув"
+        },
+        {
+        "id": 163,
+        "englishWord": "dead",
+        "translateWord": "мертвий",
+        "partsOfSpeech": "adjective",
+        "englishPronunciation": "dɛd",
+        "uaPronunciation": "дед"
+        },
+        {
+            "id": 164,
+            "englishWord": "order",
+            "translateWord": "замовляти, замовлення, порядок",
+            "partsOfSpeech": "verb, noun",
+            "englishPronunciation": "ˈɔrdər",
+            "uaPronunciation": "ордер"
+            },
+            {
+            "id": 165,
+            "englishWord": "off",
+            "translateWord": "вимкнено, від, відключити",
+            "partsOfSpeech": "adverb, preposition, verb",
+            "englishPronunciation": "ɒf",
+            "uaPronunciation": "оф"
+            },
+            {
+            "id": 166,
+            "englishWord": "face",
+            "translateWord": "обличчя, зустрічатися, стикатися",
+            "partsOfSpeech": "noun, verb",
+            "englishPronunciation": "feɪs",
+            "uaPronunciation": "фейс"
+            },
+            {
+            "id": 167,
+            "englishWord": "because",
+            "translateWord": "тому що, через те що",
+            "partsOfSpeech": "conjunction",
+            "englishPronunciation": "bɪˈkɒz",
+            "uaPronunciation": "бікоз"
+            },
+            {
+            "id": 168,
+            "englishWord": "minute",
+            "translateWord": "хвилина, момент",
+            "partsOfSpeech": "noun, adjective",
+            "englishPronunciation": "ˈmɪnɪt",
+            "uaPronunciation": "мініт"
+            },
+            {
+            "id": 169,
+            "englishWord": "against",
+            "translateWord": "проти",
+            "partsOfSpeech": "preposition",
+            "englishPronunciation": "əˈɡɛnst",
+            "uaPronunciation": "агенст"
+            },
+            {
+            "id": 170,
+            "englishWord": "almost",
+            "translateWord": "майже",
+            "partsOfSpeech": "adverb",
+            "englishPronunciation": "ˈɔːlməʊst",
+            "uaPronunciation": "ольмост"
+            },
+            {
+            "id": 171,
+            "englishWord": "best",
+            "translateWord": "найкращий",
+            "partsOfSpeech": "adjective, adverb",
+            "englishPronunciation": "bɛst",
+            "uaPronunciation": "бест"
+            },
+            {
+            "id": 172,
+            "englishWord": "within",
+            "translateWord": "в межах, всередині",
+            "partsOfSpeech": "preposition, adverb",
+            "englishPronunciation": "wɪˈðɪn",
+            "uaPronunciation": "відін"
+            },
+            {
+            "id": 173,
+            "englishWord": "however",
+            "translateWord": "однак, але",
+            "partsOfSpeech": "adverb, conjunction",
+            "englishPronunciation": "haʊˈɛvər",
+            "uaPronunciation": "хауевер"
+            }
+            
+          ]    
+        }          
+            
+              
+        
+    
+  
