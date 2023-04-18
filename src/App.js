@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter>
+      <HashRouter >
       <Header></Header>
         <Routes>
           <Route exact path="/*" element={<Words />} />

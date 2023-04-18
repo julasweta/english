@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link} from "react-router-dom";
-import { getDatabase, ref, update, get } from "firebase/database";
+import { getDatabase, ref, update, get, remove } from "firebase/database";
 import { useDispatch, useSelector } from 'react-redux';
 import { setWords } from '../redux/slices/wordsSlice';
 import data from "../words.json";
@@ -22,10 +22,10 @@ function Words() {
     });
   }, [userUid, dispatch]);
 
-  const writeUserData = (word) => {
+  const writeUserData = (wordsArr) => {
     const db = getDatabase();
     const userWordsRef = ref(db, `users/${userUid}/words`);
-    const wordsObj = words.reduce((acc, cur, i) => {
+    const wordsObj = wordsArr.reduce((acc, cur, i) => {
       if (cur) {
         acc[i] = cur;
       }
@@ -34,29 +34,36 @@ function Words() {
     update(userWordsRef, wordsObj);
   };
 
-  const handleAddWord = (word) => {
+  const handleAddWord = (wordId) => {
     const currentDate = new Date().toISOString().slice(0, 10); 
-    if (words.find((w) => w.id === word)) {
+    if (words.find((w) => w.id === wordId)) {
       alert('This word has already been added.');
     } else {
       const newWord = {
-        id: word,
+        id: wordId,
         dateAdded: currentDate, 
       };
-      dispatch(setWords([...words, newWord]));
-      writeUserData(newWord); 
+      const updatedWords = [...words, newWord];
+      dispatch(setWords(updatedWords));
+      writeUserData(updatedWords); 
     }
   };
 
   const handleDeleteWord = (wordId) => {
+    console.log(wordId);
     const db = getDatabase();
-    const userWordsRef = ref(db, `users/${userUid}/words/${wordId}`);
-    update(userWordsRef, {}).then(() => {
-      const filteredWords = words.filter((word) => word.id !== wordId);
-      dispatch(setWords(filteredWords)); // Update the state of "words" in Redux
-    }).catch((error) => {
-      console.log(error);
-    });
+    const userWordsRef = ref(db, `users/${userUid}/words`);
+    console.log(words);
+    remove(userWordsRef)
+      .then(() => {
+        const filteredWords = words.filter((word) => word.id !== wordId);
+        dispatch(setWords(filteredWords));
+        console.log(filteredWords);
+        writeUserData(filteredWords);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   };
  
 

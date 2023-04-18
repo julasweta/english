@@ -2,7 +2,7 @@
   transition: all 2s ease;
 }
 body{
- max-width: 1240px;
+
 }
 header {
   background-color: azure;
@@ -50,7 +50,6 @@ to{
 table {
   border-collapse: collapse;
   overflow-x: auto;
-  max-width: 600px;
   width: 100%;
 }
 .table {
@@ -64,8 +63,8 @@ th,
 td {
   border: 1px solid #cd3232;
   text-align: left;
-  padding: 8px;
-  font-size: 3.2vw;
+  padding: 3px;
+  font-size: 1.2vw;
 }
 
 tr:nth-child(even) {
