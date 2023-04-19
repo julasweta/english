@@ -1,16 +1,16 @@
 * {
   transition: all 2s ease;
+  margin: 0;
+  padding: 0;
 }
-body{
 
-}
+
 header {
   background-color: azure;
   height: 100px;
   width: 100%;
 }
 .header {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,21 +50,23 @@ to{
 table {
   border-collapse: collapse;
   overflow-x: auto;
-  width: 100%;
+  width: 80%;
 }
 .table {
   display: block;
 margin: 0 auto;
-width: 70%;
 }
 
+select{
+  width: 80px;
+}
 
 th,
 td {
+  text-align: center;
   border: 1px solid #cd3232;
-  text-align: left;
-  padding: 3px;
-  font-size: 1.2vw;
+  padding: 2px;
+  font-size: 18px;
 }
 
 tr:nth-child(even) {
@@ -103,4 +105,51 @@ tr:hover {
 }
 .trans {
   color: gray;
+}
+
+
+/* Adaptive */
+@media screen and (max-width: 600px) {
+  /* CSS стилі для екранів менше 600px */
+  table{
+    width: 100%;
+  }
+  .wrapper{
+    font-size: 22px;
+    height: 100px;
+  }
+  .trans{
+    width: 100vw;
+  }
+  button{
+    font-size: 14px;
+  }
+  th,
+td{
+font-size: 12px;
+width: 17vw;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+td:nth-child(7), td:nth-child(6),td:nth-child(5){
+  width: 6.5%;
+}
+tr{
+  width: 100vw;
+  display:flex;
+ justify-content: space-between;
+}
+th{
+  font-size: 10px;
+  font-weight: 600;
+  height: 80px;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.word{
+  width: 100vw;
+}
 }

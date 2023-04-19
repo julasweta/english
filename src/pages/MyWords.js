@@ -1,17 +1,29 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setLang, setIdWord } from "../redux/slices/wordsSlice";
+import { getDatabase, ref,  get } from "firebase/database";
+import { setWords } from "../redux/slices/wordsSlice";
 import data from "../words.json";
 
 function MyWords() {
   const dispatch = useDispatch();
-  const { lang, idWord, words } = useSelector((state) => state.words);
-
+  const { lang, idWord, words, userUid } = useSelector((state) => state.words);
   const [selectedDate, setSelectedDate] = useState("");
+  const filteredWords =  words.filter((word) => word.dateAdded === selectedDate);
+  
+  useEffect(() => {
+    const db = getDatabase();
+    const userWordsRef = ref(db, `users/${userUid}/words`);
+    get(userWordsRef).then((snapshot) => {
+      if (snapshot.exists()) {
+        const wordsData = snapshot.val();
+        if (Array.isArray(wordsData)) {
+          dispatch(setWords(wordsData));
+        }
+      }
+    });
+  }, [userUid, dispatch]);
 
-  const filteredWords = words.filter((word) => {
-    return selectedDate ? word.dateAdded === selectedDate : true;
-  });
 
   const addIdWord = () => {
     if (idWord < filteredWords.length - 1) {
@@ -21,16 +33,36 @@ function MyWords() {
     }
   };
 
+  const handleChangeDate = (event) => {
+    const date = new Date(event.target.value);
+    const formattedDate = `${
+      date.getDate() < 10 ? "0" + date.getDate() : date.getDate()
+    }.${
+      date.getMonth() + 1 < 10
+        ? "0" + (date.getMonth() + 1)
+        : date.getMonth() + 1
+    }.${date.getFullYear()}`;
+    setSelectedDate(formattedDate);
+  };
+
   return (
     <div className="my-words">
+      <h1>Вивчення слів</h1>
       <div>
-        <label htmlFor="date">Select date: </label>
+        <label htmlFor="date">
+          Вибери дату додавання слів у свій набір слів, <br></br>це корисно для
+          вивчення слів інтервальним методом.<br></br> Наприклад, якщо ви вчите
+          нові слова, то їх слід повторити кілька разів протягом одного заняття,{" "}
+          <br></br>потім повторити на наступний день. Потім ще раз через тиждень
+          і, нарешті, закріпити матеріал через місяць.{" "}
+        </label>
         <input
           type="date"
           id="date"
-          value={selectedDate}
-          onChange={(e) => setSelectedDate(e.target.value)}
+          value={selectedDate.split(".").reverse().join("-")}
+          onChange={handleChangeDate}
         />
+        <div>Selected date: {selectedDate}</div>
       </div>
       {lang === true ? (
         <div className="wrapper">
@@ -62,7 +94,7 @@ function MyWords() {
           </div>
         </div>
       )}
-     {/*  <button onClick={() => dispatch(setLang(!lang))}>Переклад</button> */}
+      {/*  <button onClick={() => dispatch(setLang(!lang))}>Переклад</button> */}
       <button onClick={() => addIdWord()}>Наступне слово</button>
     </div>
   );
