@@ -82,6 +82,15 @@ function MyWords() {
               )[0].englishPronunciation}
             ]{" "}
           </div>
+          <div className="trans">
+            [{" "}
+            {filteredWords[idWord] &&
+              data &&
+              data.result.filter(
+                (item) => item.id === filteredWords[idWord].id
+              )[0].uaPronunciation}
+            ]{" "}
+          </div>
         </div>
       ) : (
         <div className="wrapper">

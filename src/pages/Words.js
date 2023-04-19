@@ -92,7 +92,7 @@ function Words() {
   const filterWords = () => {
     if (part !== "" && searchWord !== "") {
       return data.result
-        .filter((item) => item.englishWord.includes(searchWord))
+        .filter((item) => item.englishWord.includes(searchWord.toLowerCase()))
         .filter((item) => item.partsOfSpeech === part);
     }
     if (part !== "") {
@@ -100,7 +100,7 @@ function Words() {
     }
     if (searchWord !== "") {
       return data.result.filter((item) =>
-        item.englishWord.includes(searchWord)
+        item.englishWord.includes(searchWord.toLowerCase())
       );
     }
   };
