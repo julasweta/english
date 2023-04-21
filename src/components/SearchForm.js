@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from 'react-redux';
 import { setSearchWord  } from '../redux/slices/wordsSlice';
 
-function SearchBox({ onSearch }) {
+function SearchBox() {
     const { searchWord} = useSelector((state) => state.words);
     const dispatch = useDispatch();
 

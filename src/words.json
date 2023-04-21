@@ -261,7 +261,6 @@
       "englishPronunciation": "sləʊ",
       "uaPronunciation": "слоу"
     },
-
     {
       "id": 35,
       "englishWord": "history",
@@ -270,7 +269,6 @@
       "englishPronunciation": "ˈhɪstəri",
       "uaPronunciation": "гісторі"
     },
-
     {
       "id": 36,
       "englishWord": "family",
@@ -279,7 +277,6 @@
       "englishPronunciation": "ˈfæməli",
       "uaPronunciation": "фамілі"
     },
-
     {
       "id": 37,
       "englishWord": "city",
@@ -288,7 +285,6 @@
       "englishPronunciation": "ˈsɪti",
       "uaPronunciation": "сіті"
     },
-
     {
       "id": 38,
       "englishWord": "country",
@@ -297,7 +293,6 @@
       "englishPronunciation": "ˈkʌntri",
       "uaPronunciation": "кантрі"
     },
-
     {
       "id": 39,
       "englishWord": "world",
@@ -306,7 +301,6 @@
       "englishPronunciation": "wɔːld",
       "uaPronunciation": "ворлд"
     },
-
     {
       "id": 40,
       "englishWord": "planet",
@@ -315,7 +309,6 @@
       "englishPronunciation": "ˈplænɪt",
       "uaPronunciation": "планета"
     },
-
     {
       "id": 41,
       "englishWord": "universe",
@@ -324,7 +317,6 @@
       "englishPronunciation": "ˈjuːnɪvɜːrs",
       "uaPronunciation": "юнівєрс"
     },
-
     {
       "id": 42,
       "englishWord": "life",
@@ -333,7 +325,6 @@
       "englishPronunciation": "laɪf",
       "uaPronunciation": "лаїф"
     },
-
     {
       "id": 43,
       "englishWord": "death",
@@ -342,7 +333,6 @@
       "englishPronunciation": "deθ",
       "uaPronunciation": "дет"
     },
-
     {
       "id": 44,
       "englishWord": "love",
@@ -351,7 +341,6 @@
       "englishPronunciation": "lʌv",
       "uaPronunciation": "лав"
     },
-
     {
       "id": 45,
       "englishWord": "hate",
@@ -360,7 +349,6 @@
       "englishPronunciation": "heɪt",
       "uaPronunciation": "хейт"
     },
-
     {
       "id": 46,
       "englishWord": "friendship",
@@ -369,7 +357,6 @@
       "englishPronunciation": "ˈfren(d)ʃɪp",
       "uaPronunciation": "френдшип"
     },
-
     {
       "id": 47,
       "englishWord": "order",
@@ -458,7 +445,6 @@
       "englishPronunciation": "nuː",
       "uaPronunciation": "нью"
     },
-
     {
       "id": 58,
       "englishWord": "old",
@@ -467,7 +453,6 @@
       "englishPronunciation": "oʊld",
       "uaPronunciation": "оулд"
     },
-
     {
       "id": 59,
       "englishWord": "young",
@@ -476,7 +461,6 @@
       "englishPronunciation": "jʌŋ",
       "uaPronunciation": "янг"
     },
-
     {
       "id": 60,
       "englishWord": "same",
@@ -485,7 +469,6 @@
       "englishPronunciation": "seɪm",
       "uaPronunciation": "сейм"
     },
-
     {
       "id": 61,
       "englishWord": "different",
@@ -494,7 +477,6 @@
       "englishPronunciation": "ˈdɪfərənt",
       "uaPronunciation": "діфрент"
     },
-
     {
       "id": 62,
       "englishWord": "easy",
@@ -503,7 +485,6 @@
       "englishPronunciation": "ˈizi",
       "uaPronunciation": "ізі"
     },
-
     {
       "id": 63,
       "englishWord": "difficult",
@@ -512,7 +493,6 @@
       "englishPronunciation": "ˈdɪfɪkəlt",
       "uaPronunciation": "діфіклт"
     },
-
     {
       "id": 64,
       "englishWord": "good",
@@ -521,7 +501,6 @@
       "englishPronunciation": "ɡʊd",
       "uaPronunciation": "ґуд"
     },
-
     {
       "id": 65,
       "englishWord": "bad",
@@ -530,7 +509,6 @@
       "englishPronunciation": "bæd",
       "uaPronunciation": "бед"
     },
-
     {
       "id": 66,
       "englishWord": "happy",
@@ -539,7 +517,6 @@
       "englishPronunciation": "ˈhæpi",
       "uaPronunciation": "хепі"
     },
-
     {
       "id": 67,
       "englishWord": "sad",
@@ -1883,6 +1860,1122 @@
       "partsOfSpeech": "noun, adjective",
       "englishPronunciation": "ˈhjuːmən",
       "uaPronunciation": "х'юман"
+    },
+    {
+      "id": 231,
+      "englishWord": "journalist",
+      "translateWord": "журналіст",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈdʒɜːrnəlɪst",
+      "uaPronunciation": "джерналіст"
+    },
+    {
+      "id": 232,
+      "englishWord": "justice",
+      "translateWord": "справедливість",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈdʒʌstɪs",
+      "uaPronunciation": "джастіс"
+    },
+    {
+      "id": 233,
+      "englishWord": "keep",
+      "translateWord": "зберігати, тримати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "kiːp",
+      "uaPronunciation": "кип"
+    },
+    {
+      "id": 234,
+      "englishWord": "key",
+      "translateWord": "ключ",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "kiː",
+      "uaPronunciation": "кі"
+    },
+    {
+      "id": 235,
+      "englishWord": "kick",
+      "translateWord": "копати",
+      "partsOfSpeech": "verb, noun",
+      "englishPronunciation": "kɪk",
+      "uaPronunciation": "кік"
+    },
+    {
+      "id": 236,
+      "englishWord": "kid",
+      "translateWord": "дитина, дитячий",
+      "partsOfSpeech": "noun, adjective",
+      "englishPronunciation": "kɪd",
+      "uaPronunciation": "кід"
+    },
+    {
+      "id": 237,
+      "englishWord": "kill",
+      "translateWord": "вбивати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "kɪl",
+      "uaPronunciation": "кіл"
+    },
+    {
+      "id": 238,
+      "englishWord": "kind",
+      "translateWord": "тип, вид, добрий",
+      "partsOfSpeech": "noun, adjective",
+      "englishPronunciation": "kaɪnd",
+      "uaPronunciation": "кайнд"
+    },
+    {
+      "id": 239,
+      "englishWord": "king",
+      "translateWord": "король",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "kɪŋ",
+      "uaPronunciation": "кінг"
+    },
+    {
+      "id": 240,
+      "englishWord": "kiss",
+      "translateWord": "цілувати, поцілунок",
+      "partsOfSpeech": "verb, noun",
+      "englishPronunciation": "kɪs",
+      "uaPronunciation": "кіс"
+    },
+    {
+      "id": 241,
+      "englishWord": "kitchen",
+      "translateWord": "кухня",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈkɪtʃɪn",
+      "uaPronunciation": "кічен"
+    },
+    {
+      "id": 242,
+      "englishWord": "knee",
+      "translateWord": "коліно",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "niː",
+      "uaPronunciation": "ні"
+    },
+    {
+      "id": 242,
+      "englishWord": "performance",
+      "translateWord": "виконання, виступ",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "pəˈfɔːməns",
+      "uaPronunciation": "пəˈфо́рмэнс"
+    },
+    {
+      "id": 243,
+      "englishWord": "theory",
+      "translateWord": "теорія",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈθɪəri",
+      "uaPronunciation": "ˈтеорі"
+    },
+    {
+      "id": 244,
+      "englishWord": "effect",
+      "translateWord": "ефект, вплив",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ɪˈfɛkt",
+      "uaPronunciation": "ефе́кт"
+    },
+    {
+      "id": 245,
+      "englishWord": "construct",
+      "translateWord": "будувати, створювати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "kənˈstrʌkt",
+      "uaPronunciation": "кəнˈстрʌкт"
+    },
+    {
+      "id": 246,
+      "englishWord": "dimension",
+      "translateWord": "вимір, розмір",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "dɪˈmɛnʃən",
+      "uaPronunciation": "діˈменшен"
+    },
+    {
+      "id": 247,
+      "englishWord": "sector",
+      "translateWord": "сектор, галузь",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈsɛktər",
+      "uaPronunciation": "се́ктор"
+    },
+    {
+      "id": 248,
+      "englishWord": "visual",
+      "translateWord": "візуальний",
+      "partsOfSpeech": "adjective",
+      "englishPronunciation": "ˈvɪʒuəl",
+      "uaPronunciation": "ві́жуал"
+    },
+    {
+      "id": 249,
+      "englishWord": "target",
+      "translateWord": "ціль, мішень",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈtɑːgɪt",
+      "uaPronunciation": "та́рґэт"
+    },
+    {
+      "id": 250,
+      "englishWord": "contain",
+      "translateWord": "містити, зберігати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "kənˈteɪn",
+      "uaPronunciation": "кəнˈтейн"
+    },
+    {
+      "id": 250,
+      "englishWord": "help",
+      "translateWord": "допомога, допомагати",
+      "partsOfSpeech": "noun, verb",
+      "englishPronunciation": "hɛlp",
+      "uaPronunciation": "хелп"
+    },
+    {
+      "id": 251,
+      "englishWord": "system",
+      "translateWord": "система",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈsɪstəm",
+      "uaPronunciation": "систем"
+    },
+    {
+      "id": 252,
+      "englishWord": "each",
+      "translateWord": "кожний",
+      "partsOfSpeech": "determiner, pronoun",
+      "englishPronunciation": "itʃ",
+      "uaPronunciation": "іч"
+    },
+    {
+      "id": 253,
+      "englishWord": "right",
+      "translateWord": "право, правильний",
+      "partsOfSpeech": "noun, adjective, adverb",
+      "englishPronunciation": "raɪt",
+      "uaPronunciation": "райт"
+    },
+    {
+      "id": 254,
+      "englishWord": "work",
+      "translateWord": "робота, працювати",
+      "partsOfSpeech": "noun, verb",
+      "englishPronunciation": "wɜrk",
+      "uaPronunciation": "ворк"
+    },
+    {
+      "id": 255,
+      "englishWord": "get",
+      "translateWord": "отримувати, діставати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "ɡɛt",
+      "uaPronunciation": "гет"
+    },
+    {
+      "id": 256,
+      "englishWord": "just",
+      "translateWord": "тільки, просто, справедливий",
+      "partsOfSpeech": "adverb, adjective",
+      "englishPronunciation": "dʒʌst",
+      "uaPronunciation": "джаст"
+    },
+    {
+      "id": 257,
+      "englishWord": "life",
+      "translateWord": "життя",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "laɪf",
+      "uaPronunciation": "лаїф"
+    },
+    {
+      "id": 258,
+      "englishWord": "now",
+      "translateWord": "зараз",
+      "partsOfSpeech": "adverb",
+      "englishPronunciation": "naʊ",
+      "uaPronunciation": "нау"
+    },
+    {
+      "id": 259,
+      "englishWord": "could",
+      "translateWord": "міг би, могти",
+      "partsOfSpeech": "verb, auxiliary verb",
+      "englishPronunciation": "kʊd",
+      "uaPronunciation": "куд"
+    },
+    {
+      "id": 251,
+      "englishWord": "be",
+      "translateWord": "бути",
+      "partsOfSpeech": "verb, auxiliary verb",
+      "englishPronunciation": "biː",
+      "uaPronunciation": "бі"
+    },
+    {
+      "id": 252,
+      "englishWord": "have",
+      "translateWord": "мати",
+      "partsOfSpeech": "verb, auxiliary verb",
+      "englishPronunciation": "hæv",
+      "uaPronunciation": "хев"
+    },
+    {
+      "id": 253,
+      "englishWord": "do",
+      "translateWord": "робити",
+      "partsOfSpeech": "verb, auxiliary verb",
+      "englishPronunciation": "duː",
+      "uaPronunciation": "ду"
+    },
+    {
+      "id": 254,
+      "englishWord": "say",
+      "translateWord": "говорити",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "seɪ",
+      "uaPronunciation": "сей"
+    },
+    {
+      "id": 255,
+      "englishWord": "get",
+      "translateWord": "отримувати, ставати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "ɡet",
+      "uaPronunciation": "гет"
+    },
+    {
+      "id": 256,
+      "englishWord": "make",
+      "translateWord": "робити",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "meɪk",
+      "uaPronunciation": "мейк"
+    },
+    {
+      "id": 257,
+      "englishWord": "go",
+      "translateWord": "йти",
+      "partsOfSpeech": "verb, noun",
+      "englishPronunciation": "ɡoʊ",
+      "uaPronunciation": "гоу"
+    },
+    {
+      "id": 258,
+      "englishWord": "know",
+      "translateWord": "знати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "noʊ",
+      "uaPronunciation": "ноу"
+    },
+    {
+      "id": 259,
+      "englishWord": "could",
+      "translateWord": "міг би, могти",
+      "partsOfSpeech": "verb, auxiliary verb",
+      "englishPronunciation": "kʊd",
+      "uaPronunciation": "куд"
+    },
+    {
+      "id": 260,
+      "englishWord": "want",
+      "translateWord": "хотіти",
+      "partsOfSpeech": "verb, noun",
+      "englishPronunciation": "wɑːnt",
+      "uaPronunciation": "уонт"
+    },
+    {
+      "id": 261,
+      "englishWord": "hunt",
+      "translateWord": "шукати, полювати",
+      "partsOfSpeech": "verb, noun",
+      "englishPronunciation": "hʌnt",
+      "uaPronunciation": "хант"
+    },
+    {
+      "id": 262,
+      "englishWord": "gather",
+      "translateWord": "збирати, зібратись",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "ˈɡæðər",
+      "uaPronunciation": "ґеддер"
+    },
+    {
+      "id": 263,
+      "englishWord": "behind",
+      "translateWord": "за, позаду",
+      "partsOfSpeech": "preposition, adverb",
+      "englishPronunciation": "bɪˈhaɪnd",
+      "uaPronunciation": "біхайнд"
+    },
+    {
+      "id": 264,
+      "englishWord": "sight",
+      "translateWord": "вид, зір",
+      "partsOfSpeech": "noun, verb",
+      "englishPronunciation": "saɪt",
+      "uaPronunciation": "сайт"
+    },
+    {
+      "id": 265,
+      "englishWord": "advice",
+      "translateWord": "порада",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ədˈvaɪs",
+      "uaPronunciation": "едвайс"
+    },
+    {
+      "id": 266,
+      "englishWord": "rise",
+      "translateWord": "підніматись, зростати",
+      "partsOfSpeech": "verb, noun",
+      "englishPronunciation": "raɪz",
+      "uaPronunciation": "райз"
+    },
+    {
+      "id": 267,
+      "englishWord": "pass",
+      "translateWord": "проходити, передавати",
+      "partsOfSpeech": "verb, noun",
+      "englishPronunciation": "pæs",
+      "uaPronunciation": "пасс"
+    },
+    {
+      "id": 268,
+      "englishWord": "short",
+      "translateWord": "короткий",
+      "partsOfSpeech": "adjective, adverb",
+      "englishPronunciation": "ʃɔrt",
+      "uaPronunciation": "шорт"
+    },
+    {
+      "id": 269,
+      "englishWord": "sound",
+      "translateWord": "звук",
+      "partsOfSpeech": "noun, verb, adjective",
+      "englishPronunciation": "saʊnd",
+      "uaPronunciation": "саунд"
+    },
+    {
+      "id": 270,
+      "englishWord": "clear",
+      "translateWord": "чистий, ясний",
+      "partsOfSpeech": "adjective, adverb, verb",
+      "englishPronunciation": "klɪr",
+      "uaPronunciation": "клір"
+    },
+    {
+      "id": 270,
+      "englishWord": "seem",
+      "translateWord": "здаватися",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "si:m",
+      "uaPronunciation": "сім"
+    },
+    {
+      "id": 271,
+      "englishWord": "call",
+      "translateWord": "заклик; кликати",
+      "partsOfSpeech": "verb, noun",
+      "englishPronunciation": "kɔ:l",
+      "uaPronunciation": "кол"
+    },
+    {
+      "id": 272,
+      "englishWord": "ask",
+      "translateWord": "питати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "a:sk",
+      "uaPronunciation": "аск"
+    },
+    {
+      "id": 273,
+      "englishWord": "should",
+      "translateWord": "1) згадаю. дієслово; 2) повинен, слід",
+      "partsOfSpeech": "modal verb",
+      "englishPronunciation": "ʃud",
+      "uaPronunciation": "шуд"
+    },
+    {
+      "id": 274,
+      "englishWord": "through",
+      "translateWord": "через, крізь",
+      "partsOfSpeech": "preposition, adverb",
+      "englishPronunciation": "θru:",
+      "uaPronunciation": "тру"
+    },
+    {
+      "id": 275,
+      "englishWord": "long",
+      "translateWord": "довгий; довго",
+      "partsOfSpeech": "adjective, adverb",
+      "englishPronunciation": "lɔŋ",
+      "uaPronunciation": "лонг"
+    },
+    {
+      "id": 276,
+      "englishWord": "let",
+      "translateWord": "дозволяти",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "let",
+      "uaPronunciation": "лет"
+    },
+    {
+      "id": 277,
+      "englishWord": "take",
+      "translateWord": "брати; доставляти; приймати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "teik",
+      "uaPronunciation": "тейк"
+    },
+    {
+      "id": 278,
+      "englishWord": "saw",
+      "translateWord": "бачив, пила",
+      "partsOfSpeech": "verb, noun",
+      "englishPronunciation": "sɔ:",
+      "uaPronunciation": "со"
+    },
+    {
+      "id": 279,
+      "englishWord": "around",
+      "translateWord": "кругом, навколо; поблизу",
+      "partsOfSpeech": "adverb, preposition",
+      "englishPronunciation": "ə’raund",
+      "uaPronunciation": "ераунд"
+    },
+    {
+      "id": 280,
+      "englishWord": "parcel",
+      "translateWord": "посилка",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈpɑːrsəl",
+      "uaPronunciation": "па:рсел"
+    },
+    {
+      "id": 281,
+      "englishWord": "unforeseen",
+      "translateWord": "непередбачений",
+      "partsOfSpeech": "adjective",
+      "englishPronunciation": "ʌn.fɔːˈsiːn",
+      "uaPronunciation": "унфорсін"
+    },
+    {
+      "id": 282,
+      "englishWord": "resilient",
+      "translateWord": "гнучкий, стійкий",
+      "partsOfSpeech": "adjective",
+      "englishPronunciation": "rɪˈzɪliənt",
+      "uaPronunciation": "резілієнт"
+    },
+    {
+      "id": 283,
+      "englishWord": "incessant",
+      "translateWord": "нескінченний, безперервний",
+      "partsOfSpeech": "adjective",
+      "englishPronunciation": "ɪnˈses.ənt",
+      "uaPronunciation": "інсесент"
+    },
+    {
+      "id": 284,
+      "englishWord": "describing",
+      "translateWord": "опис",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "dɪˈskraɪbɪŋ",
+      "uaPronunciation": "дескрайбінг"
+    },
+    {
+      "id": 285,
+      "englishWord": "appearance",
+      "translateWord": "вигляд, зовнішність",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "əˈpɪrəns",
+      "uaPronunciation": "апіранс"
+    },
+    {
+      "id": 286,
+      "englishWord": "miss",
+      "translateWord": "скучати, пропустити, пані",
+      "partsOfSpeech": "verb/noun",
+      "englishPronunciation": "mɪs",
+      "uaPronunciation": "міс"
+    },
+    {
+      "id": 287,
+      "englishWord": "prominent",
+      "translateWord": "видатний, помітний, висунутий",
+      "partsOfSpeech": "adjective",
+      "englishPronunciation": "ˈprɒmɪnənt",
+      "uaPronunciation": "промінент"
+    },
+    {
+      "id": 288,
+      "englishWord": "intangible",
+      "translateWord": "нематеріальний, неосяжний",
+      "partsOfSpeech": "adjective",
+      "englishPronunciation": "ɪnˈtændʒəbl",
+      "uaPronunciation": "інтенджибл"
+    },
+    {
+      "id": 289,
+      "englishWord": "elusive",
+      "translateWord": "невловимий, неосяжний",
+      "partsOfSpeech": "adjective",
+      "englishPronunciation": "ɪˈluːsɪv",
+      "uaPronunciation": "ілюзів"
+    },
+    {
+      "id": 290,
+      "englishWord": "belief",
+      "translateWord": "вірування",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "bɪˈliːf",
+      "uaPronunciation": "біліф"
+    },
+    {
+      "id": 291,
+      "englishWord": "communicate",
+      "translateWord": "спілкуватися",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "kəˈmjuː.nɪ.keɪt",
+      "uaPronunciation": "ком'юнікейт"
+    },
+    {
+      "id": 292,
+      "englishWord": "compromise",
+      "translateWord": "компроміс",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈkɑːm.prə.maɪz",
+      "uaPronunciation": "компромайз"
+    },
+    {
+      "id": 293,
+      "englishWord": "compromise",
+      "translateWord": "компроміс",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "ˈkɑːm.prə.maɪz",
+      "uaPronunciation": "компромайз"
+    },
+    {
+      "id": 294,
+      "englishWord": "concept",
+      "translateWord": "концепція",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "ˈkɑːn.sept",
+      "uaPronunciation": "консепт"
+    },
+    {
+      "id": 295,
+      "englishWord": "decision",
+      "translateWord": "рішення",
+      "partsOfSpeech": "noun",
+      "englishPronunciation": "dɪˈsɪʒ.ən",
+      "uaPronunciation": "діжен"
+    },
+    {
+      "id": 296,
+      "englishWord": "describe",
+      "translateWord": "описувати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "dɪˈskraɪb",
+      "uaPronunciation": "дескрайб"
+    },
+    {
+      "id": 297,
+      "englishWord": "detail",
+      "translateWord": "деталь, докладно",
+      "partsOfSpeech": "noun, verb",
+      "englishPronunciation": "ˈdiː.teɪl",
+      "uaPronunciation": "дітейл"
+    },
+    {
+      "id": 297,
+      "englishWord": "be",
+      "translateWord": "бути",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "bi",
+      "uaPronunciation": "бі"
+    },
+    {
+      "id": 298,
+      "englishWord": "have",
+      "translateWord": "мати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "hæv",
+      "uaPronunciation": "хев"
+    },
+    {
+      "id": 299,
+      "englishWord": "do",
+      "translateWord": "робити",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "du",
+      "uaPronunciation": "ду"
+    },
+    {
+      "id": 300,
+      "englishWord": "say",
+      "translateWord": "говорити",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "seɪ",
+      "uaPronunciation": "сей"
+    },
+    {
+      "id": 301,
+      "englishWord": "get",
+      "translateWord": "отримати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "ɡet",
+      "uaPronunciation": "ґет"
+    },
+    {
+      "id": 302,
+      "englishWord": "make",
+      "translateWord": "робити",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "meɪk",
+      "uaPronunciation": "мейк"
+    },
+    {
+      "id": 303,
+      "englishWord": "go",
+      "translateWord": "йти",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "ɡoʊ",
+      "uaPronunciation": "ґоу"
+    },
+    {
+      "id": 304,
+      "englishWord": "see",
+      "translateWord": "бачити",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "si",
+      "uaPronunciation": "сі"
+    },
+    {
+      "id": 305,
+      "englishWord": "know",
+      "translateWord": "знати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "noʊ",
+      "uaPronunciation": "ноу"
+    },
+    {
+      "id": 306,
+      "englishWord": "take",
+      "translateWord": "брати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "teɪk",
+      "uaPronunciation": "тейк"
+    },
+    {
+      "id": 307,
+      "englishWord": "think",
+      "translateWord": "думати",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "θɪŋk",
+      "uaPronunciation": "тінк"
+    },
+    {
+      "id": 308,
+      "englishWord": "come",
+      "translateWord": "приходити",
+      "partsOfSpeech": "verb",
+      "englishPronunciation": "kʌm",
+      "uaPronunciation": "кам"
+    },
+    
+      {
+        "id": 309,
+        "englishWord": "promote",
+        "translateWord": "сприяти, спонсорувати, рекламувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "prəˈmoʊt",
+        "uaPronunciation": "прамоут"
+      },
+      {
+        "id": 310,
+        "englishWord": "enforce",
+        "translateWord": "забезпечувати дотримання, накладати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ɪnˈfɔrs",
+        "uaPronunciation": "інфорс"
+      },
+      {
+        "id": 311,
+        "englishWord": "coordinate",
+        "translateWord": "координувати, узгоджувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "koʊˈɔːrdɪneɪt",
+        "uaPronunciation": "координейт"
+      },
+      {
+        "id": 312,
+        "englishWord": "perceive",
+        "translateWord": "сприймати, розуміти",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "pərˈsiːv",
+        "uaPronunciation": "персів"
+      },
+      {
+        "id": 313,
+        "englishWord": "comply",
+        "translateWord": "дотримуватись, виконувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "kəmˈplaɪ",
+        "uaPronunciation": "комплай"
+      },
+      {
+        "id": 314,
+        "englishWord": "facilitate",
+        "translateWord": "сприяти, спрощувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "fəˈsɪlɪteɪt",
+        "uaPronunciation": "фасілітейт"
+      },
+      {
+        "id": 315,
+        "englishWord": "stimulate",
+        "translateWord": "стимулювати, підбадьорювати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ˈstɪmjuleɪt",
+        "uaPronunciation": "стим'юлейт"
+      },
+      {
+        "id": 316,
+        "englishWord": "warrant",
+        "translateWord": "гарантувати, виправдовувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ˈwɔːrənt",
+        "uaPronunciation": "ворент"
+      },
+      {
+        "id": 317,
+        "englishWord": "believe",
+        "translateWord": "вірити",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "bɪˈliːv",
+        "uaPronunciation": "білів"
+      },
+      {
+        "id": 318,
+        "englishWord": "know",
+        "translateWord": "знати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "noʊ",
+        "uaPronunciation": "ноу"
+      },
+      {
+        "id": 319,
+        "englishWord": "make",
+        "translateWord": "робити",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "meɪk",
+        "uaPronunciation": "мейк"
+      },
+      {
+        "id": 320,
+        "englishWord": "get",
+        "translateWord": "отримувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ɡet",
+        "uaPronunciation": "ґет"
+      },
+      {
+        "id": 321,
+        "englishWord": "go",
+        "translateWord": "йти",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ɡoʊ",
+        "uaPronunciation": "ґоу"
+      },
+      {
+        "id": 322,
+        "englishWord": "arrive",
+        "translateWord": "прибувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "əˈraɪv",
+        "uaPronunciation": "ара́йв"
+        },
+      {
+        "id": 323,
+        "englishWord": "see",
+        "translateWord": "бачити",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "si",
+        "uaPronunciation": "сі"
+      },
+      {
+        "id": 324,
+        "englishWord": "think",
+        "translateWord": "думати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "θɪŋk",
+        "uaPronunciation": "зінк"
+      },
+      {
+        "id": 325,
+        "englishWord": "take",
+        "translateWord": "брати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "teɪk",
+        "uaPronunciation": "тейк"
+      },
+      {
+        "id": 326,
+        "englishWord": "see",
+        "translateWord": "бачити",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "si",
+        "uaPronunciation": "сі"
+      },
+      {
+        "id": 327,
+        "englishWord": "come",
+        "translateWord": "приходити",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "kʌm",
+        "uaPronunciation": "кам"
+      },
+      {
+        "id": 328,
+        "englishWord": "want",
+        "translateWord": "хотіти",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "wɑːnt",
+        "uaPronunciation": "вонт"
+      },
+      {
+        "id": 329,
+        "englishWord": "use",
+        "translateWord": "використовувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "juːs",
+        "uaPronunciation": "юз"
+      },
+      {
+        "id": 330,
+        "englishWord": "find",
+        "translateWord": "знаходити",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "faɪnd",
+        "uaPronunciation": "файнд"
+      },
+      {
+        "id": 330,
+        "englishWord": "achieve",
+        "translateWord": "досягати, здійснювати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "əˈtʃiːv",
+        "uaPronunciation": "ачів"
+      },
+      {
+        "id": 331,
+        "englishWord": "consume",
+        "translateWord": "споживати, вживати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "kənˈsuːm",
+        "uaPronunciation": "консюм"
+      },
+      {
+        "id": 332,
+        "englishWord": "deliver",
+        "translateWord": "доставляти, передавати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "dɪˈlɪvər",
+        "uaPronunciation": "ділівер"
+      },
+      {
+        "id": 333,
+        "englishWord": "establish",
+        "translateWord": "засновувати, встановлювати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ɪˈstæblɪʃ",
+        "uaPronunciation": "естебліш"
+      },
+      {
+        "id": 334,
+        "englishWord": "improve",
+        "translateWord": "поліпшувати, покращувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ɪmˈpruːv",
+        "uaPronunciation": "імпрув"
+      },
+      {
+        "id": 335,
+        "englishWord": "maintain",
+        "translateWord": "зберігати, підтримувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "meɪnˈteɪn",
+        "uaPronunciation": "мейнтейн"
+      },
+      {
+        "id": 336,
+        "englishWord": "neglect",
+        "translateWord": "занедбувати, нехтувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "nɪˈɡlekt",
+        "uaPronunciation": "ніглект"
+      },
+      {
+        "id": 337,
+        "englishWord": "obtain",
+        "translateWord": "отримувати, здобувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "əbˈteɪn",
+        "uaPronunciation": "обтейн"
+      },
+      {
+        "id": 338,
+        "englishWord": "participate",
+        "translateWord": "брати участь, приймати участь",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "pɑːˈtɪsɪpeɪt",
+        "uaPronunciation": "партісіпейт"
+      },
+      {
+        "id": 339,
+        "englishWord": "analyze",
+        "translateWord": "аналізувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ˈæn.ə.laɪz",
+        "uaPronunciation": "аналайз"
+        },
+        {
+        "id": 340,
+        "englishWord": "communicate",
+        "translateWord": "спілкуватись, комунікувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "kəˈmjuː.nɪ.keɪt",
+        "uaPronunciation": "ком'юнікейт"
+        },
+        {
+        "id": 341,
+        "englishWord": "implement",
+        "translateWord": "виконувати, реалізовувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ˈɪm.plɪ.ment",
+        "uaPronunciation": "імплемент"
+        },
+        {
+        "id": 342,
+        "englishWord": "enhance",
+        "translateWord": "покращувати, збільшувати ефективність",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ɪnˈhæns",
+        "uaPronunciation": "енханс"
+        },
+        {
+        "id": 343,
+        "englishWord": "inspire",
+        "translateWord": "надихати, давати натхнення",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ɪnˈspaɪər",
+        "uaPronunciation": "інспайр"
+        },
+        {
+        "id": 344,
+        "englishWord": "promote",
+        "translateWord": "підтримувати, сприяти",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "prəˈmoʊt",
+        "uaPronunciation": "промоут"
+        },
+        {
+        "id": 345,
+        "englishWord": "resolve",
+        "translateWord": "вирішувати, розв'язувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "rɪˈzɑːlv",
+        "uaPronunciation": "різолв"
+        },
+        {
+        "id": 346,
+        "englishWord": "generate",
+        "translateWord": "генерувати, створювати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "ˈdʒen.ə.reɪt",
+        "uaPronunciation": "дженерейт"
+        },
+        {
+        "id": 347,
+        "englishWord": "facilitate",
+        "translateWord": "сприяти, полегшувати",
+        "partsOfSpeech": "verb",
+        "englishPronunciation": "fəˈsɪl.ə.teɪt",
+        "uaPronunciation": "фасілітейт"
+        },
+        {
+          "id": 348,
+          "englishWord": "happen",
+          "translateWord": "статися, трапитися",
+          "partsOfSpeech": "verb",
+          "englishPronunciation": "ˈhæpən",
+          "uaPronunciation": "хепен"
+          },
+          {
+          "id": 349,
+          "englishWord": "become",
+          "translateWord": "стати кимось, стати чимось",
+          "partsOfSpeech": "verb",
+          "englishPronunciation": "bɪˈkʌm",
+          "uaPronunciation": "бікам"
+          },
+          {
+          "id": 350,
+          "englishWord": "move",
+          "translateWord": "рухатись, пересуватись",
+          "partsOfSpeech": "verb",
+          "englishPronunciation": "muːv",
+          "uaPronunciation": "мув"
+          },
+          {
+          "id": 351,
+          "englishWord": "live",
+          "translateWord": "жити, проживати",
+          "partsOfSpeech": "verb",
+          "englishPronunciation": "lɪv",
+          "uaPronunciation": "лів"
+          },
+          {
+          "id": 352,
+          "englishWord": "work",
+          "translateWord": "працювати, робити роботу",
+          "partsOfSpeech": "verb",
+          "englishPronunciation": "wɜːrk",
+          "uaPronunciation": "ворк"
+          },
+          {
+          "id": 353,
+          "englishWord": "try",
+          "translateWord": "намагатись, спробувати",
+          "partsOfSpeech": "verb",
+          "englishPronunciation": "traɪ",
+          "uaPronunciation": "трай"
+          },
+          {
+          "id": 354,
+          "englishWord": "call",
+          "translateWord": "дзвонити, називати",
+          "partsOfSpeech": "verb",
+          "englishPronunciation": "kɔːl",
+          "uaPronunciation": "кол"
+          },
+          {
+          "id": 355,
+          "englishWord": "feel",
+          "translateWord": "відчувати, почувати",
+          "partsOfSpeech": "verb",
+          "englishPronunciation": "fiːl",
+          "uaPronunciation": "філ"
+          }
+          
+          
+      
+      ]
     }
-  ]
-}

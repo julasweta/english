@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { getDatabase, ref, update, get, remove } from "firebase/database";
 import { useDispatch, useSelector } from "react-redux";
 import { setWords, setPart } from "../redux/slices/wordsSlice";
@@ -7,6 +6,8 @@ import data from "../words.json";
 import SearchForm from "../components/SearchForm";
 
 function Words() {
+  const [displayCount, setDisplayCount] = useState(20);
+
   const { userUid, words, part, searchWord } = useSelector(
     (state) => state.words
   );
@@ -32,7 +33,6 @@ function Words() {
       if (cur) {
         acc[i] = {
           ...cur,
-          dateAdded: new Date().toLocaleDateString("uk-UA"), // use current date
         };
       }
       return acc;
@@ -43,17 +43,20 @@ function Words() {
   //додавання слова
   const handleAddWord = (wordId) => {
     const currentDate = new Date().toLocaleDateString("uk-UA");
-
     const existingWord = words.find((w) => w.id === wordId);
+ 
     if (existingWord && existingWord.dateAdded) {
+   /*   console.log(existingWord.dateAdded);
       // Використовуйте існуючу дату, якщо вона існує
       const newWord = {
         id: wordId,
         dateAdded: existingWord.dateAdded,
       };
+      console.log('newWord', newWord);
       const updatedWords = [...words.filter((w) => w.id !== wordId), newWord];
       dispatch(setWords(updatedWords));
-      writeUserData(updatedWords);
+      writeUserData(updatedWords); */
+      writeUserData(words); 
     } else {
       // Додайте нову дату, якщо це нове слово
       const newWord = {
@@ -70,13 +73,13 @@ function Words() {
   const handleDeleteWord = (wordId) => {
     const db = getDatabase();
     const userWordsRef = ref(db, `users/${userUid}/words`);
-    console.log(words);
+    console.log('words',words);
     remove(userWordsRef)
       .then(() => {
         const filteredWords = words.filter((word) => word.id !== wordId);
         dispatch(setWords(filteredWords));
         console.log(filteredWords);
-        writeUserData(filteredWords);
+        writeUserData( filteredWords);
       })
       .catch((error) => {
         console.log(error);
@@ -88,28 +91,53 @@ function Words() {
     dispatch(setPart(event.target.value)); // збереження вибраного значення у стані компонента
   };
 
-  //фільтр масиву по пошуку і частині мови
-  const filterWords = () => {
-    if (part !== "" && searchWord !== "") {
-      return data.result
-        .filter((item) => item.englishWord.includes(searchWord.toLowerCase()))
-        .filter((item) => item.partsOfSpeech === part);
-    }
-    if (part !== "") {
-      return data.result.filter((item) => item.partsOfSpeech === part);
-    }
-    if (searchWord !== "") {
-      return data.result.filter((item) =>
-        item.englishWord.includes(searchWord.toLowerCase())
-      );
+
+  //кількість при прокручуванні сторінки ///
+  const handleScroll = () => {
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.documentElement.scrollHeight;
+    const scrollTop = document.documentElement.scrollTop;
+  
+    if (scrollTop + windowHeight >= documentHeight) {
+      setDisplayCount(displayCount + 20);
     }
   };
+
+  
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [displayCount]);
+  
+  
+
+
+
+  //фільтр масиву по пошуку і частині мови
+  const filterWords = () => {
+  const filteredWords = data.result.filter((item) => {
+    const matchesSearch = item.englishWord.includes(searchWord.toLowerCase());
+    const matchesPart = part === "" || item.partsOfSpeech === part;
+    return matchesSearch && matchesPart;
+  });
+
+  return filteredWords.slice(0, displayCount);
+};
+
+
 useEffect(()=>{
-filterWords();
-}, [part, searchWord])
+  filterWords();
+  }, [part, searchWord, displayCount])
+
+
+
 
   return (
     <div>
+      <h1>Список 1000 найвживаніших слів в англійській мові</h1>
+      {userUid === 'none' &&  <p>Для того щоб мати можливість створити свій список для вивчення слів, авторизуйтесь</p>}
+     
+      <br></br>
       <SearchForm></SearchForm>
       <div className="table">
         <table>
@@ -140,7 +168,7 @@ filterWords();
           </thead>
           <tbody>
             {part === "" && searchWord === ""
-              ? data.result.map((word) => (
+              ? filterWords().map((word) => (
                   <tr key={word.id}>
                     <td>{word.englishWord}</td>
                     <td>{word.translateWord}</td>

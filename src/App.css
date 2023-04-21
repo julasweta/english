@@ -81,7 +81,7 @@ tr:hover {
   background-color: #ddd;
 }
 .wrapper {
-  height: 400px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,6 +107,16 @@ tr:hover {
   color: gray;
 }
 
+.list-words{
+  width: 100vw;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.active{
+  color: #cd3232;
+  font-weight: 900;
+}
 
 /* Adaptive */
 @media screen and (max-width: 600px) {
@@ -153,3 +163,4 @@ th{
   width: 100vw;
 }
 }
+

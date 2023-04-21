@@ -11,7 +11,7 @@ function Header() {
           <div className="header">
             <Link to="/words">All Words</Link>
 
-            <Link to="/myword">My Words</Link>
+           
             <Link to="/login">
               <input type="button" value="login" />
             </Link>
